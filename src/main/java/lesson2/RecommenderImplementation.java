@@ -8,7 +8,7 @@ public class RecommenderImplementation {
         this.filter = filter;
     }
     public String[] recommendedMovies (String movie) {
-        System.out.println("Name of the filter in use: " + filter + "/n");
+        System.out.println("Name of the filter in use: " + filter + "\n");
         String[] results = filter.getRecommendations("Finding Dory");
         return results;
     }
