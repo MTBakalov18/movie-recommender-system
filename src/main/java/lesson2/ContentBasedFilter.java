@@ -1,6 +1,6 @@
-package lesson1;
+package lesson2;
 
-public class ContentBasedFilter {
+public class ContentBasedFilter implements Filter {
     public String[] getRecommendations(String movie) {
         return new String[] {"Happy feet", "Ice Age", "Shark Tale"};
     }
